@@ -26,21 +26,21 @@ To ensure that your installation is successful you'll need to run tests.
 The command: `npm test` makes this possible. It isn't functional right now, but once it's done you'll be notified via the README.
 
 ###Install Docker for Windows
-1. Double-click Docker for Windows Installer.exe to run the installer.
-If you haven’t already downloaded the installer (Docker for Windows Installer.exe), you can get it from download.docker.com. It typically downloads to your Downloads folder, or you can run it from the recent downloads bar at the bottom of your web browser.
+1. Double-clickÂ Docker for Windows Installer.exeÂ to run the installer.
+If you havenâ€™t already downloaded the installer (Docker for Windows Installer.exe), you can get it fromÂ download.docker.com. It typically downloads to yourÂ Downloads folder, or you can run it from the recent downloads bar at the bottom of your web browser.
 2. Follow the install wizard to accept the license, authorize the installer, and proceed with the install.
-You will be asked to authorize Docker.app with your system password during the install process. Privileged access is needed to install networking components, links to the Docker apps, and manage the Hyper-V VMs.
-3. Click Finish on the setup complete dialog to launch Docker.
+You will be asked to authorizeÂ Docker.appÂ with your system password during the install process. Privileged access is needed to install networking components, links to the Docker apps, and manage the Hyper-V VMs.
+3. ClickÂ FinishÂ on the setup complete dialog to launch Docker.
 
 Start Docker for Windows
 Docker will not start automatically. To start it, search for Docker, select the app in the search results, and click it (or hit Return).
-You should be able to run docker run hello-world and see a response like this:
+You should be able to runÂ docker run hello-worldÂ and see a response like this:
 docker run UserManager
 
-Run docker --version to check it’s version.
+RunÂ docker --versionÂ to check itâ€™s version.
 $ docker --version
 
-Run docker stack deploy -c docker-compose.yml getstartedlab
+RunÂ docker stack deploy -c docker-compose.yml getstartedlab
 
 ### API Documentation
 The API only has one endpoint which is the `/users` endpoint for saving users to the database. The endpoint works with the HTTP verbs: `POST`, `GET`, `PUT`, `DELETE`.
@@ -100,7 +100,7 @@ password: ibgusman
 -   `DELETE` /users/:id
 
 ```json
-User John Doe was deleted
+User Ibrahim Usman was deleted
 ```
 
 ###### POST HTTP Request
